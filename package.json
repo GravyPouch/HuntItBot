@@ -2,13 +2,17 @@
   "name": "huntitbot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "functions/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "netlify-lambda install",
+    "buildNetlify": "netlify-lambda build functions",
+    "devNetlify": "netlify-lambda serve functions"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "netlify-lambda": "^2.0.1",
     "slimbot": "^4.9.0"
   }
 }
