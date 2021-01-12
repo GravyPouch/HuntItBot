@@ -1,6 +1,6 @@
 const Slimbot = require("slimbot");
 
-const slimbot = new Slimbot("1348152115:AAG1twiJB8tpABbxbw13azvzBfkK-wyUZgI");
+const slimbot = new Slimbot("");
 
 let users = [];
 
