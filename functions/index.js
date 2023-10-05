@@ -1,6 +1,6 @@
 const Slimbot = require("slimbot");
 
-const slimbot = new Slimbot("");
+const slimbot = new Slimbot("TOKEN GOES HERE");
 
 let users = [];
 
